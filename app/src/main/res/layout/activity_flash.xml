@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/launcher_bg"/>
+
+    <ImageView
+        android:id="@+id/launcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:scaleType="fitXY" />
+
+    <Button
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="@dimen/dp_10"
+        android:background="@drawable/bg_line_corners_tm"
+        android:text="跳过：5"
+        android:textSize="12sp" />
+
+</FrameLayout>
